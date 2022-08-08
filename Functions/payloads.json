@@ -1,0 +1,80 @@
+{
+  "functions/events/discord/message/Confirm.js": {
+    "event": {
+      "id": "841525458012078110",
+      "tts": false,
+      "type": 0,
+      "flags": 0,
+      "nonce": "0000000000000000",
+      "author": {
+        "id": "142734979418423296",
+        "avatar": null,
+        "username": "SAMPLE_USER",
+        "public_flags": 0,
+        "discriminator": "1234"
+      },
+      "embeds": [],
+      "member": {
+        "deaf": false,
+        "mute": false,
+        "roles": [],
+        "joined_at": "2021-01-01T00:00:00+00:00",
+        "hoisted_role": null
+      },
+      "pinned": false,
+      "content": ".confirm 200072393@aston.ac.uk 831121",
+      "guild_id": "759084557202620426",
+      "mentions": [
+        {
+          "id": "142734979418423296",
+          "bot": false,
+          "avatar": null,
+          "member": {
+            "deaf": false,
+            "mute": false,
+            "nick": null,
+            "roles": [
+              "0000000000000000"
+            ],
+            "pending": false,
+            "joined_at": "2021-01-01T00:00:00+00:00",
+            "is_pending": false,
+            "hoisted_role": null,
+            "premium_since": null
+          },
+          "username": "SAMPLE_USERNAME",
+          "public_flags": 0,
+          "discriminator": "1234"
+        }
+      ],
+      "timestamp": "2021-01-01T00:00:00+00:00",
+      "channel_id": "759084557722058833",
+      "attachments": [],
+      "mention_roles": [],
+      "edited_timestamp": null,
+      "mention_everyone": false,
+      "referenced_message": null
+    }
+  },
+  "functions/events/discord/guild/member/add.js": {
+    "event": {
+      "deaf": false,
+      "mute": false,
+      "nick": "SAMPLE_USER_NICKNAME",
+      "user": {
+        "id": "880244315656445972",
+        "email": "test@example.com",
+        "flags": 64,
+        "avatar": "00000000000000000000000000000000",
+        "username": "SAMPLE_USERNAME",
+        "verified": true,
+        "premium_type": 1,
+        "public_flags": 64,
+        "discriminator": "1234"
+      },
+      "roles": [],
+      "guild_id": "0000000000000000",
+      "joined_at": "2021-01-01T00:00:00+00:00"
+    }
+  }
+}

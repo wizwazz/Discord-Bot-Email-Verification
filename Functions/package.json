@@ -1,0 +1,9 @@
+{
+  "name": "basic-discord-example",
+  "author": "Wazir Hamed",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "jimp": "^0.16.1"
+  }
+}

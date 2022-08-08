@@ -1,0 +1,58 @@
+{
+  "name": "wazz/basic-discord-example",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/Verify.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/Confirm.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/bot/message/create.js": {
+      "name": "discord.bot.message.create"
+    },
+    "functions/events/scheduler/DailyNotice.js": {
+      "name": "scheduler.daily",
+      "subtype": {
+        "time": "18:00 (6:00pm)",
+        "timezone": "Europe — London, GB (+00:00, +01:00 DST)"
+      }
+    },
+    "functions/events/discord/user/contextmenu/interaction.js": {
+      "name": "discord.user.contextmenu.interaction",
+      "subtype": {
+        "name": "Toggle Mute"
+      }
+    },
+    "functions/events/discord/guild/member/add.js": {
+      "name": "discord.guild.member.add"
+    }
+  },
+  "env": [
+    {
+      "name": "GUILD_ID",
+      "description": "GUILD ID"
+    },
+    {
+      "name": "channel_id",
+      "description": "CHANNEL ID"
+    },
+    {
+      "name": "ADMIN_ROLE_ID",
+      "description": "ADMIN ROLE ID"
+    },
+    {
+      "name": "MUTE_ROLE_ID",
+      "description": "MUTE ROLE ID"
+    },
+    {
+      "name": "CHANNEL_ID",
+      "description": "The channel to send your welcome message"
+    },
+    {
+      "name": "WELCOME_CHANNEL_ID",
+      "description": "The channel ID to send message to for new users."
+    }
+  ]
+}
